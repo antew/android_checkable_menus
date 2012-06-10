@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <item android:id="@+id/change_category" android:showAsAction="withText" android:title="Category">
+        <menu>
+            <group android:id="@+id/categories" android:checkableBehavior="single">
+                <item android:id="@+id/category_hot"           android:title="Hot"/>
+                <item android:id="@+id/category_new"           android:title="New"/>
+                <item android:id="@+id/category_controversial" android:title="Controversial"/>
+                <item android:id="@+id/category_top"           android:title="Top"/>
+            </group>
+        </menu>
+    </item>
+ 
+</menu>
